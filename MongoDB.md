@@ -17,7 +17,7 @@ One document can have other documents embedded in it. New documents are assigned
 ```
 - use QueryAPI for operations such as basic READ/WRITE and complex transformations across the database.  
 - use secondary indexes to optimise performance (make common queries faster).
-- use geo-spatial queries to find documents near a geographic location.
+- use geospatial queries to find documents near a geographic location.
 - use aggregation pipelines to group documents together and return a single result.
 
 Unlike a relational table, a predefined schema for a collection is optional => can change data structure without complex database migrations and allows frequently accessed data to be stored in the same place => READ operations are quicker since no joins are required.
